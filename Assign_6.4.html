@@ -1,0 +1,78 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <!-- -------------------------------------Single file so script inside only-->
+        <script type="text/javascript">
+            
+            var emp = {
+                name : "Vikas",
+                age : 24,
+                sal : 10000,
+                addr : {
+                    city : "Bangalore",
+                    state : "Karnataka" , 
+                    pin : 560000  
+                        }
+                };
+            
+            var emp2 = {
+                name : "Kasi",
+                age : 25,
+                sal : 15000,
+                addr : {
+                    city : "Mysore",
+                    state : "Karnataka" , 
+                    pin : 560300
+                        }
+                };
+            
+            var emp3 = {
+                name : "Sahil",
+                age : 21,
+                sal : 11000,
+                addr : {
+                    city : "Humpi",
+                    state : "Karnataka" , 
+                    pin : 563300
+                        }
+                };
+            
+            var emp4 = {
+                name : "Jon",
+                age : 22,
+                sal : 5000,
+                addr : {
+                    city : "Bhopal",
+                    state : "MP" , 
+                    pin : 160000
+                        }
+                };
+            
+            var emp5 = {
+                name : "Vikram",
+                age : 24,
+                sal : 10000,
+                addr : {
+                    city : "Bangalore",
+                    state : "Karnataka" , 
+                    pin : 560000
+                        }
+                };
+            
+            var EmpArr = [emp,emp2,emp3,emp4,emp5];
+            
+            for(var item in EmpArr){
+                console.log(EmpArr[item]);
+            }                 
+        
+        </script>
+    </head>
+
+    <body>
+        
+        <h1> Check the console (F12) then  ctrl + ]</h1>
+        
+    </body>
+        
+
+</html>
